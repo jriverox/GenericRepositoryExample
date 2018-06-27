@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExample.Domain", "GenericRepositoryExample.Domain\GenericRepositoryExample.Domain.csproj", "{B8AF8C86-76D4-44AA-B200-515E86BC75FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericRepositoryExample.Data.EF", "GenericRepositoryExample.Data.EF\GenericRepositoryExample.Data.EF.csproj", "{0E15D5CF-AB8D-4F7C-BAC5-50194310CE79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8AF8C86-76D4-44AA-B200-515E86BC75FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AF8C86-76D4-44AA-B200-515E86BC75FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AF8C86-76D4-44AA-B200-515E86BC75FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AF8C86-76D4-44AA-B200-515E86BC75FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E15D5CF-AB8D-4F7C-BAC5-50194310CE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E15D5CF-AB8D-4F7C-BAC5-50194310CE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E15D5CF-AB8D-4F7C-BAC5-50194310CE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E15D5CF-AB8D-4F7C-BAC5-50194310CE79}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB1BB89E-4525-496C-A351-004DD13DEDEB}
+	EndGlobalSection
+EndGlobal
